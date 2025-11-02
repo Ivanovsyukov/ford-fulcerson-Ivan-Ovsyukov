@@ -7,7 +7,7 @@ import numpy as np
 # ==========================
 # ПАРАМЕТРЫ ЭКСПЕРИМЕНТОВ
 # ==========================
-REPEATS_TABLES = 50      # число повторений для усреднения тестов из таблиц
+REPEATS_TABLES = 50      # число повторов для усреднения тестов из таблиц
 REPEATS_HISTOGRAM = 500  # число повторов для гистограммы
 
 
@@ -342,7 +342,7 @@ def test_histogram():
 # ==========================
 if __name__ == "__main__":
     random.seed(42)
-    #test_size_dependence()
-    #test_flow_dependence()
-    #test_structure_dependence()
+    test_size_dependence()
+    test_flow_dependence()
+    test_structure_dependence()
     test_histogram()
